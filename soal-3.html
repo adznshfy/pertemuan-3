@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        @media screen and (min-width: 501px){
+            body {
+                background-color: salmon;
+
+            }
+        } 
+        @media screen and (max-width: 500px){
+            body {
+                background-color: brown;
+            }
+        }
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            column-gap: 5px;
+            justify-content: center;
+        }
+        .flex-container > div {
+            background-color: aliceblue;
+            margin: 10px;
+            height: 100px;
+            width: 200px;
+            padding: 20px;
+            box-sizing: border-box;
+            border-style: groove;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div>About Me</div>
+        <div>Jihaan Adzanishaafiya Anwar</div>
+        <div>WebDev_007</div>
+    </div>
+
+</body>
+</html>

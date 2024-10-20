@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-rows: 40px 40px 40px 40px;
+            row-gap: 10px;
+            border-radius: 10px;
+            column-gap: 10px;
+        }
+
+        div {
+            font-size: 30px;
+            padding: 10px;
+            background-color:aquamarine;
+            border-style: double;
+            border-radius: 10px;
+        }
+
+        .div1 {
+            grid-column: 1/12;
+        }
+        .div2 {
+            grid-column: 1/6;
+        }
+        .div3 {
+            grid-column: 6/12;
+        }
+        .div4 {
+            grid-column: 6/12;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">One</div>
+    <div class="div2">Two</div>
+    <div class="div3">Three</div>
+    <div class="div4">Four</div>
+</body>
+</html>
